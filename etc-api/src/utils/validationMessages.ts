@@ -1,0 +1,25 @@
+export const EMPTY = "EMPTY"
+export const TOO_LONG = "TOO_LONG"
+export const NOT_EMAIL = "NOT_EMAIL"
+export const NOT_PHONE = "NOT_PHONE"
+export const NOT_DATE = "NOT_DATE"
+export const NOT_ARRAY = "NOT_ARRAY"
+export const WRONG_DATE = "WRONG_DATE"
+export const NOT_NUMBER = "NOT_NUMBER"
+export const WRONG_VESSEL_TYPE = "WRONG_VESSEL_TYPE"
+export const WRONG_SERVICE_TYPE = "WRONG_SERVICE_TYPE"
+export const WRONG_DP_LEVEL = "WRONG_DP_LEVEL"
+export const WRONG_FIFI_CLASS = "WRONG_FIFI_CLASS"
+export const WRONG_DURATION = "WRONG_DURATION"
+export const REQUIRED_VESSEL_PARAMS = "REQUIRED_VESSEL_PARAMS"
+export const WRONG_VALUE = "WRONG_VALUE"
+export const WRONG_SERVICE_ORDER_STATUS = "WRONG_SERVICE_ORDER_STATUS"
+export const CLIENT_REQUIRED = "CLIENT_REQUIRED"
+export const WRONG_COMPANY_VALUE = "WRONG_COMPANY_VALUE"
+export const WRONG_DATE_SEQUENCE = "WRONG_DATE_SEQUENCE"
+export const WRONG_SERVICE_ORDER_VALUE = 'WRONG_SERVICE_ORDER_VALUE'
+export const WRONG_DOC_TYPE = 'Wrong document type'
+export const WRONG_IMAGE_TYPE = 'Wrong image type'
+export const TOO_LARGE_DOCUMENT = 'Too large document'
+export const TOO_LARGE_IMAGE = 'Too large image'
+export const TOO_LARGE_FILE_SIZES = (maxSize: number) => `The sum of file sizes exceeds ${maxSize}mb`
